@@ -265,3 +265,11 @@
     }
 
 }
+
+@media (max-height: 575px){
+
+    .button-container{
+        top: 7%;
+    }
+
+}
