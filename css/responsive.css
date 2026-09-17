@@ -256,3 +256,12 @@
 
 
 }
+
+/* ----MEDIA QUERY FOR HEIGHT---- */
+@media (max-height: 725px){
+
+    .button-container{
+        top: 6%;
+    }
+
+}
