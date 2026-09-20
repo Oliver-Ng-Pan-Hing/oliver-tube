@@ -231,6 +231,11 @@ main{
     width: 100%;
 }
 
+.second-sidebar{
+    display: none;
+}
+
+
 .sidebar-links{
     /* background-color: lightsalmon; */
 
@@ -452,6 +457,13 @@ border-radius: 1em;
 
     margin-left: 0.75em; 
     cursor: pointer;
+}
+
+/* ----------ADDED WITH AI-------------- */
+/* Make any buttons inside .button-container turn red on hover */
+.button-container .prm-button:hover {
+    background-color: red !important;
+    color: #ffffff !important;
 }
 
 .button-container .fa-angle-right{

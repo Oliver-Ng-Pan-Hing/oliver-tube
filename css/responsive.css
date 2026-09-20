@@ -4,6 +4,7 @@
 
     .create{
     background-color: rgb( 255, 255, 255);
+    padding: 0.5em 0.5em;
     }
 
     summary img:first-child{
@@ -14,6 +15,7 @@
     /* NEW TO THE SCREEN */
      summary img:nth-child(2){
     display: block;
+    
     }
 
     summary span{
@@ -22,6 +24,26 @@
 
     #sidebar{
         width: 6%;
+        transition: 0.3s ease-in-out;
+    }
+
+    #sidebar:hover{
+        #wider-sidebar{
+            display: none;
+        }
+
+        .sidebar-links{
+        display: block;
+    }
+
+    .info-container{
+        display: block;
+    }
+        width: 25%;
+        position: absolute;
+        z-index: 1000;
+        background-color: white;
+        
     }
 
     /* NEW TO THE SCREEN */
@@ -66,10 +88,6 @@
         width: 94%;
     }
 
-}
-
-@media (max-width: 1312px){
-
     .button-container{
         padding-top: 1em;
         top: 5%;
@@ -79,9 +97,9 @@
     .navbar-middle{
         margin-right: auto;
     }
+    
 
 }
-
 
 @media (max-width: 1250px){
     #wider-sidebar{
@@ -136,6 +154,12 @@
 }
 
 @media (max-width: 960px){
+
+    #sidebar:hover {
+
+        width: 40%;
+            
+    }
 
     .search{
         margin-left: 2em;
